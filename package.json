@@ -1,0 +1,49 @@
+{
+  "name": "vue-h5-spa-startkit",
+  "version": "1.0.0",
+  "description": "A simple scaffolding Vue.js projects based on Vue 2.5.x + Vue-router + Vuex + mint-ui + Webpack 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --host 127.0.0.1 --port 8888 --history-api-fallback --config webpack.config.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.config.js",
+    "_comment": "dev增加--history-api-fallback,所有路由都会指向index.html"
+  },
+  "author": "MGTfang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^1.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "request": "^2.83.0",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-loader": "^13.7.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mint-ui": "^2.2.13",
+    "promise-polyfill": "7.0.0",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.4.2"
+  }
+}
